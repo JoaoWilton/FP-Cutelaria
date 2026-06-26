@@ -1,0 +1,10 @@
+-- =============================================================================
+-- Os dados de teste (usuários, catálogo de demonstração) são criados pelo
+-- DataSeeder (br.unitins.tp1.sga.startup.DataSeeder) no startup da aplicação,
+-- usando BcryptUtil.bcryptHash() diretamente em Java — isso garante que os
+-- hashes bcrypt sejam sempre compatíveis com o WildFly Elytron do Quarkus.
+--
+-- NÃO inserir senhas em texto puro ou hashes gerados fora da aplicação aqui.
+-- Se precisar de dados extras via SQL, use este arquivo normalmente — ele
+-- continua sendo executado no drop-and-create, APÓS o DataSeeder rodar.
+-- =============================================================================
